@@ -1,0 +1,398 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    height: 2070px;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #CADCFC;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 7px;
+}
+
+.nav p{
+    padding-left: 150px; 
+    font-size: 30px;
+    padding-right: 300px;
+    font-weight: 900;
+}
+
+.b{
+    background-color: hsl(218, 89%, 75%);
+    border-radius: 4px;
+    margin-left: 150px;
+    padding: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: hsl(218, 89%, 75%);
+    border-radius: 4px;
+    border: 2px solid rgb(17, 17, 17);
+    display: flex;
+    align-items: baseline;
+}
+
+fa-solid fa-arrow-right{
+    padding: 5px;
+}
+
+
+.btn:active{
+    scale: 0.98;
+    transition: 0.2s;
+}
+
+a, .btn{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 23px;
+}
+
+.btn:hover,.b:hover{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    transform: translateY(-7%);
+}
+
+
+a:hover{
+    background-color: hsl(218, 89%, 75%);
+    border-radius: 8px;
+    transform: translateY(-7%);
+}
+
+
+a:active,a:focus,.btn:active{
+    scale: 0.98;
+    transition: 0.2s;
+}
+
+.home{
+    margin: 0px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#ffffff; 
+}
+
+.courses{
+    height: 750px; 
+    background-color: #CADCFC;   
+
+}
+
+.blogs{
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.blogs img{
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 120px;
+    height: 500px;
+    float: left;
+}
+
+.para{
+    padding-top: 100px;
+}
+
+.para p{
+    padding-right: 35px;
+    font-size: 18px;
+}
+
+.para h1{
+    font-family: sans-serif;
+}
+
+.part p{
+    padding-left: 25px;
+}
+
+.part{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.part h2{
+    font-family: sans-serif;
+}
+
+.p1{
+    padding: 15px;
+    width: 400px;
+    margin: 0;
+}   
+
+.p2{
+    padding: 15px;
+    width: 400px;
+} 
+.p3{
+    padding: 15px;
+    width: 400px;
+} 
+.p4{
+    padding: 15px;
+    width: 400px;
+}
+
+.par{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 60px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.par h1{
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-size: 2.4em;
+    font-family: sans-serif;
+}
+
+.par p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.btn1{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #CADCFC;
+    color: black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+    background-color: hsl(218, 89%, 75%);
+}
+
+.btn2{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #CADCFC;
+    color: black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+    background-color: hsl(218, 89%, 75%);
+}
+
+.home img{
+    height: 450px;
+    width: 310px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+.logos i{
+    margin-left: 210px;
+}
+
+.logos p{
+    font-size: 1.4em;
+    font-family: monospace;
+}
+
+.cata1{
+    padding-left: 80px;
+}
+
+.cata1 h1{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    
+}
+
+.cata1 p{
+    font-size: 1.09em;
+}
+
+.cata1 button{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: hsl(218, 89%, 75%);
+    color: black;
+    border-radius: 4px;
+}
+
+.cata1 button:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+    background-color: hsl(218, 89%, 75%);
+}
+
+.cat1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    gap: 25px;
+}
+
+.cat2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cata2{
+    width: 280px;
+    height: 190px;
+    background-image: url(./cyber.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.cata2 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata3{
+    width: 280px;
+    height: 190px;
+    background-image: url(./english.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+    margin-right: 50px;
+    padding-right: 5px;
+}
+
+.cata3 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata4{
+    width: 280px;
+    height: 190px;
+    margin-left: 84px;
+    background-image: url(./business.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cata4 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata5{
+    width: 280px;
+    height: 190px;
+    background-image: url(./math.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cata5 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata6{
+    width: 280px;
+    height: 190px;
+    background-image: url(./graphic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cata6 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata7{
+    width: 280px;
+    height: 190px;
+    background-image: url(./web.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 8px;
+    margin-right: 60px;
+}
+
+.cata7 p{
+    text-align: center;
+    padding-top: 175px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cata2:hover,.cata3:hover,.cata4:hover,.cata5:hover,.cata6:hover,.cata7:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 0 10px;
+}
